@@ -1,0 +1,23 @@
+{
+  "name": "music-player-inspiration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "now"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yunseop-dev/music-player.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yunseop-dev/music-player/issues"
+  },
+  "homepage": "https://github.com/yunseop-dev/music-player#readme",
+  "devDependencies": {
+    "now": "^18.0.0"
+  }
+}

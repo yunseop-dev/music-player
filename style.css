@@ -53,10 +53,37 @@ button {
 
 .music-controller {
   height: 106px;
-  line-height: 106px;
+  /* line-height: 106px; */
   background-color: rgb(47, 56, 71);
   font-size: 18px;
 }
+.music-progress-bar {
+  -webkit-appearance: none;
+  width: 95%;
+  height: 2px;
+  margin: 16px auto;
+  display: block;
+  background-color: rgb(67, 200, 207);
+}
+
+.music-progress-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.music-progress-bar::-moz-range-thumb {
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
 .music-controller_left {
   float: left;
   margin: 0 16px;
@@ -68,6 +95,8 @@ button {
 .music-navigator {
   position: relative;
   text-align: center;
+  min-height: 48px;
+  line-height: 48px;
 }
 
 .music-navigator_btn {
@@ -92,17 +121,8 @@ button {
 .music-subtitle {
   margin-top: 4px;
   font-size: 10px;
+  color: rgb(102, 108, 120);
 }
-
-/* .music-informations_cover {
-  height: 150px;
-}
-.music-informations_cover img {
-  width: 112px;
-  height: 112px;
-  border-radius: 100px;
-  margin-top: 20px;
-} */
 
 .music-list-container {
   margin: 16px;

@@ -53,18 +53,20 @@ button {
 
 .music-controller {
   height: 106px;
+  line-height: 106px;
   background-color: rgb(47, 56, 71);
   font-size: 18px;
 }
 .music-controller_left {
   float: left;
-  margin: 16px;
+  margin: 0 16px;
 }
 .music-controller_right {
   float: right;
-  margin: 16px;
+  margin: 0 16px;
 }
 .music-navigator {
+  position: relative;
   text-align: center;
 }
 
@@ -76,7 +78,7 @@ button {
   border-radius: 24px;
   width: 44px;
   height: 44px;
-  margin: 16px;
+  margin: 0 16px;
 }
 
 .music-informations {
